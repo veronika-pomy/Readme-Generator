@@ -3,11 +3,56 @@
 function renderLicenseBadge(license) {
   const licenseCheck = license.license;
   let writeBadge;
-  if (licenseCheck === "none") {
-    writeBadge = ''
-  } else {
-    writeBadge = `https://img.shields.io/github/license/${license.github}/readme-generator?style=for-the-badge`;
-  }
+
+  switch (licenseCheck) {
+    case 'Apache License 2.0':
+      writeBadge =`https://img.shields.io/badge/license-Apache.v2-blue?style=for-the-badge`;
+      break;
+    case 'GNU General Public License v3.0':
+      writeBadge =`https://img.shields.io/badge/license-GNU.Gen.v3-blue?style=for-the-badge`;
+      break;
+    case 'MIT License':
+      writeBadge =`https://img.shields.io/badge/license-MIT-blue?style=for-the-badge`;
+      break;
+    case 'BSD 2-Clause':
+      writeBadge =`https://img.shields.io/badge/license-BSD.2.Clause-blue?style=for-the-badge`;
+      break;
+    case 'Simplified License':
+      writeBadge =`https://img.shields.io/badge/license-Simplified-blue?style=for-the-badge`;
+      break;
+    case 'BSD 3-Clause \"New\" or \"Revised\" License':
+      writeBadge =`https://img.shields.io/badge/license-BSD.3.Clause.New-blue?style=for-the-badge`;
+      break;
+    case 'Boost Software License 1.0':
+      writeBadge =`https://img.shields.io/badge/license-Boost-blue?style=for-the-badge`;
+      break;
+    case 'Creative Commons Zero v1.0 Universal':
+      writeBadge =`https://img.shields.io/badge/license-CC0.v1-blue?style=for-the-badge`;
+      break;
+    case 'Eclipse Public License 2.0':
+      writeBadge =`https://img.shields.io/badge/license-Eclipse.v2-blue?style=for-the-badge`;
+      break;
+    case 'GNU Affero General Public License v3.0':
+      writeBadge =`https://img.shields.io/badge/license-GNU.Affero.v3-blue?style=for-the-badge`;
+      break;
+     case 'GNU General Public License v2.0':
+      writeBadge =`https://img.shields.io/badge/license-GNU.Gen.v2-blue?style=for-the-badge`;
+      break;
+    case 'GNU Lesser General Public License v2.1':
+      writeBadge =`https://img.shields.io/badge/license-GNU.Lesser.v2.1-blue?style=for-the-badge`;
+      break;
+    case 'Mozilla Public License 2.0':
+      writeBadge =`https://img.shields.io/badge/license-MPL.v2-blue?style=for-the-badge`;
+    break;
+    case 'The Unlicense':
+      writeBadge =`https://img.shields.io/badge/license-Unlicense-blue?style=for-the-badge`;
+    break;
+    case 'none': 
+      writeBadge = '';
+      break;
+    default:
+      writeBadge = '';
+  };
   return writeBadge;
 };
 
@@ -51,7 +96,7 @@ ${data.description}
 
 ## Table of Contents
 
-  <ol>
+  <ul>
     <li>
       <a href="#description">Description</a>
     </li>
@@ -76,7 +121,7 @@ ${data.description}
     <li>
         <a href="#questions">Questions</a>
     </li>
-  </ol>
+  </ul>
 
 ---
 

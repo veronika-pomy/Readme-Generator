@@ -108,7 +108,7 @@ function init() {
     };
 
     promptUser()
-    .then((answers) => writeToFile('README.md', answers))
+    .then((answers) => writeToFile('./sample_readme/README.md', answers))
     .then(() => console.log("Successfully wrote a readme file."))
     .catch((err) => console.log(err));
 };

@@ -1,16 +1,18 @@
-<!-- Project Title -->
-# 
+
+# New Project
 
 ## Description
 
-<!-- Text of Description -->
+Coming soon...
 
 <!-- License Badge -->
 [![License][license-shield]][license-url]
 
+---
+
 ## Table of Contents
 
-  <ol>
+  <ul>
     <li>
       <a href="#description">Description</a>
     </li>
@@ -19,6 +21,9 @@
     </li>
     <li>
         <a href="#usage">Usage</a>
+    </li>
+    <li>
+      <a href="#mockup">Mockup</a>
     </li>
     <li>
         <a href="#license">License</a>
@@ -32,46 +37,54 @@
     <li>
         <a href="#questions">Questions</a>
     </li>
-  </ol>
+  </ul>
+
+---
 
 ## Installation
 
-<!-- Text of Description -->
+Instructions on how ot install the application: Coming soon...
+
+---
 
 ## Usage
 
-<!-- Text of Description -->
+Instructions on how to use the application: Coming soon...
 
-<!-- Link to demo video or imgs -->
-[![Product Demo][product-demo]](https://example.com)
+[Product Demo](https://example.com)
+
+---
+## Mockup
+
+![Mockup](enter-path-to-files-here)
+
+---
 
 ## License
 
 
-Distributed under the <!-- Text of Description --> License. See `LICENSE.txt` for more information.
+
+---
 
 ## Contributing
 
-<!-- Text of Description -->
+Please follow these guidelines when contributing to the project: none
+
+---
 
 ## Tests
 
-<!-- Text of Description 
+Instructions on how to test the software: none
 
-Give users explicit instructions on how to run all necessary tests. Explain the libraries, such as Capybara or Cucumber, used for testing your software and supply all necessary commands.
-
--->
+---
 
 ## Questions
 
-Contact me: <!-- Instructions on how to contact me -->
+If you have any questions regarding this project, please don't hesitate to contact me using my email address: enter-your-email-here. You can find my project repositories here: [GitHub Repos](https://github.com/enter-your-github-name-here?tab=repositories).
 
-My GitHub: <!-- GitHub Link -->
+---
 
-My Email: <!-- Email Address -->
-
-<!-- Links and Images -->
-[license-shield]: https://img.shields.io/github/license/veronika-pomy/readme-generator?style=for-the-badge 
-[license-url]: https://github.com/veronika-pomy/Readme-Generator/blob/main/LICENSE
-[product-demo]: ../assets/imgs/Screenshot%202023-01-29%20at%2011.18.46%20AM.png
-
+<!-- License and Demos -->
+[license-shield]: https://img.shields.io/badge/license-None-red?style=for-the-badge
+[license-url]: 
+[product-demo]: https://example.com
