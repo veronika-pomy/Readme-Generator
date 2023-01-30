@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
     if (licenseSectionCheck === "none") {
       return `` ;
     } else {
-     return `[License Section](#license)` 
+     return `Distributed under the ${license.license}. See "LICENSE.txt" for more information.`
     }
 };
 
@@ -46,8 +46,6 @@ ${data.description}
 
 <!-- License Badge -->
 [![License][license-shield]][license-url]
-
-${renderLicenseSection(data)}
 
 ---
 
@@ -64,7 +62,7 @@ ${renderLicenseSection(data)}
         <a href="#usage">Usage</a>
     </li>
     <li>
-      <a href="#mockup">Mock-up</a>
+      <a href="#mockup">Mockup</a>
     </li>
     <li>
         <a href="#license">License</a>
@@ -94,7 +92,7 @@ Instructions on how to use the application: ${data.usage}
 
 [Product Demo](${data.demo})
 
----ß
+---
 ## Mockup
 
 ![Mockup](${data.mockup})
@@ -103,7 +101,7 @@ Instructions on how to use the application: ${data.usage}
 
 ## License
 
-Distributed under the ${data.license}. See "LICENSE.txt" for more information.
+${renderLicenseSection(data)}
 
 ---
 
@@ -121,7 +119,7 @@ Instructions on how to test the software: ${data.tests}
 
 ## Questions
 
-If you have any questions regarding this project, please don't hesitate to contact me using my email address: ${data.email}. You can find my project repositories here: [GitHub Repos](https://github.com/veronika-pomy?tab=repositories).
+If you have any questions regarding this project, please don't hesitate to contact me using my email address: ${data.email}. You can find my project repositories here: [GitHub Repos](https://github.com/${data.github}?tab=repositories).
 
 ---
 
