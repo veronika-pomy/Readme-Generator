@@ -85,12 +85,12 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
+<!-- License Badge -->
+[![License][license-shield]][license-url]
+
 ## Description
 
 ${data.description}
-
-<!-- License Badge -->
-[![License][license-shield]][license-url]
 
 ---
 

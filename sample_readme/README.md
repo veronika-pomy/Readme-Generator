@@ -1,12 +1,12 @@
 
-# MY NEW PROJECT
-
-## Description
-
-Here is a short description of my project.
+# New Project 
 
 <!-- License Badge -->
 [![License][license-shield]][license-url]
+
+## Description
+
+Here is description of the project.
 
 ---
 
@@ -43,13 +43,13 @@ Here is a short description of my project.
 
 ## Installation
 
-Instructions on how ot install the application: Here are instructions on installing the app!
+Instructions on how ot install the application: Coming soon...
 
 ---
 
 ## Usage
 
-Instructions on how to use the application: Here is how to use it
+Instructions on how to use the application: Coming soon...
 
 [Product Demo](https://example.com)
 
@@ -68,13 +68,13 @@ Distributed under the GNU General Public License v3.0. See "LICENSE.txt" for mor
 
 ## Contributing
 
-Please follow these guidelines when contributing to the project: Coming soon...
+Please follow these guidelines when contributing to the project: Here is how to contribute...
 
 ---
 
 ## Tests
 
-Instructions on how to test the software: Here is how to test the software.
+Instructions on how to test the software: No tests
 
 ---
 
