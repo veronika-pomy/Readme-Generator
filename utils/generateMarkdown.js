@@ -164,7 +164,7 @@ Instructions on how to test the software: ${data.tests}
 
 ## Questions
 
-If you have any questions regarding this project, please don't hesitate to contact me using my email address: ${data.email}. You can find my project repositories here: [GitHub Repos](https://github.com/${data.github}?tab=repositories).
+If you have any questions regarding this project, please don't hesitate to contact me using my email address: ${data.email}. You can find my project repositories here: [${data.github}](https://github.com/${data.github}?tab=repositories).
 
 ---
 

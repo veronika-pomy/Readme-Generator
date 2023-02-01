@@ -38,7 +38,7 @@ const questions = [
     {
         type: 'input',
         name: 'mockup',
-        message: 'Enter path to mockup files starting from current directory:',
+        message: 'Enter path to mockup files starting from Readme\'s current directory:',
         default: 'enter-path-to-files-here',
     },
     {
@@ -66,13 +66,13 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'Guidelines on how to contribute to the project:',
-        default: 'none',
+        default: 'Coming soon...',
     },
     {
         type: 'input',
         name: 'tests',
         message: 'Instructions on how to run necessary tests: ',
-        default: 'none',
+        default: 'Coming soon...',
     },    
     {
         type: 'input',

@@ -1,9 +1,9 @@
 
-# New Project
+# MY NEW PROJECT
 
 ## Description
 
-Coming soon...
+Here is a short description of my project.
 
 <!-- License Badge -->
 [![License][license-shield]][license-url]
@@ -43,48 +43,48 @@ Coming soon...
 
 ## Installation
 
-Instructions on how ot install the application: Coming soon...
+Instructions on how ot install the application: Here are instructions on installing the app!
 
 ---
 
 ## Usage
 
-Instructions on how to use the application: Coming soon...
+Instructions on how to use the application: Here is how to use it
 
 [Product Demo](https://example.com)
 
 ---
 ## Mockup
 
-![Mockup](enter-path-to-files-here)
+![Mockup](../assets/imgs/placeholder.png)
 
 ---
 
 ## License
 
-
+Distributed under the GNU General Public License v3.0. See "LICENSE.txt" for more information.
 
 ---
 
 ## Contributing
 
-Please follow these guidelines when contributing to the project: none
+Please follow these guidelines when contributing to the project: Coming soon...
 
 ---
 
 ## Tests
 
-Instructions on how to test the software: none
+Instructions on how to test the software: Here is how to test the software.
 
 ---
 
 ## Questions
 
-If you have any questions regarding this project, please don't hesitate to contact me using my email address: enter-your-email-here. You can find my project repositories here: [GitHub Repos](https://github.com/enter-your-github-name-here?tab=repositories).
+If you have any questions regarding this project, please don't hesitate to contact me using my email address: pomyateevav@gmail.com. You can find my project repositories here: [veronika-pomy](https://github.com/veronika-pomy?tab=repositories).
 
 ---
 
 <!-- License and Demos -->
-[license-shield]: https://img.shields.io/badge/license-None-red?style=for-the-badge
-[license-url]: 
+[license-shield]: https://img.shields.io/badge/license-GNU.Gen.v3-blue?style=for-the-badge
+[license-url]: https://github.com/veronika-pomy/Test-Repo/blob/main/LICENSE
 [product-demo]: https://example.com
