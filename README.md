@@ -59,7 +59,7 @@ Instructions on how ot install the application: the code can be downloaded from 
 ---
 ## Demo
 
-![Demo](./assets/media/demo.webm)
+![Demo](./assets/media/demo.gif)
 
 ---
 
