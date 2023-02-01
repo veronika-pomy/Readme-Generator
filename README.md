@@ -41,7 +41,7 @@ Instructions on how ot install the application: Here are instructions on install
 ---
 ## Demo
 
-![Demo](./assets/media/video-demo.webm)
+![Demo](./assets/media/demo.webm)
 
 ---
 
