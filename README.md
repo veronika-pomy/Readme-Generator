@@ -5,7 +5,25 @@
 
 ## Description
 
-Here is a short description of my project.
+This application generates a professional README file template based on user input. The user inputs needed information when prompted in the command line. 
+
+The generated README file contains the following sections:
+
+- Title of the Project
+- Description
+- Table of Contents 
+- Installation
+- Usage
+- License 
+- Contributing 
+- Tests
+- Questions
+
+When a user chooses a license from a list of options, that information is added to the license section of the readme, and a badge with the license link is displayed at the top of the readme file. 
+
+The questions section contains information on how to get in touch and the developer's email address and GitHub profile link.
+
+The Table of Contents is functional and links to the appropriate sections of the readme file. 
 
 ---
 
@@ -19,7 +37,7 @@ Here is a short description of my project.
       <a href="#installation">Installation</a>
     </li>
     <li>
-      <a href="#mockup">Mockup</a>
+      <a href="#demo">Demo</a>
     </li>
     <li>
         <a href="#license">License</a>
@@ -28,7 +46,7 @@ Here is a short description of my project.
         <a href="#questions">Questions</a>
     </li>
     <li>
-        <a href="#acknowledgements">Acknowledgements</a>
+        <a href="#acknowledgments">Acknowledgements</a>
     </li>
   </ul>
 
@@ -36,7 +54,7 @@ Here is a short description of my project.
 
 ## Installation
 
-Instructions on how ot install the application: Here are instructions on installing the app!
+Instructions on how ot install the application: the code can be downloaded from the repository on Github and run in Node.js.
 
 ---
 ## Demo
@@ -62,6 +80,8 @@ ___
 This list includes resources used for the project. 
 
 - [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+- [inquirer](https://www.npmjs.com/package/inquirer)
+- [Node.js](https://nodejs.org/en/)
 - [Shields.io](https://shields.io/)
 - [Vecteezy - free coming soon placeholder image](https://www.vecteezy.com/)
 
