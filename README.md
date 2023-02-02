@@ -59,7 +59,7 @@ Instructions on how ot install the application: the code can be downloaded from 
 ---
 ## Demo
 
-![Demo](./assets/media/demo.gif)
+https://user-images.githubusercontent.com/111567114/216225779-ea327b64-0382-48f6-9ab7-8a70654b1be2.mp4
 
 ---
 
